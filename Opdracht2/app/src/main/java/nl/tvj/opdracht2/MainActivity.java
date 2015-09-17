@@ -1,16 +1,13 @@
-package nl.tvj.opdracht1;
+package nl.tvj.opdracht2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-  //  Button button = (Button) findViewById(R.id.btnChange);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,10 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void btnButton1(View v)
-    {
-        TextView tv = (TextView) findViewById(R.id.tvMainText);
-        tv.setText("gvdjammer");
-    }
 
+    public void btnClick(View view) {
+        int debugTest = 1;
+        debugTest ++;
+    }
 }
