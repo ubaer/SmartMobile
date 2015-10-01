@@ -72,7 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 Product p = new Product(naam,prijs);
 
                 allProducts.add(p);
-                Log.d("Producten", p.toString());
+          //      Log.d("Producten", p.toString());
+
             }
         }
         catch (IOException ex)
